@@ -13,43 +13,43 @@ _Daily file backup can be cumbersome. But this Python-based Automatic File Backu
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 This program is designed to:  
---bAutomatically back up files from a source folder to a destination folder.  
--- Create a new dated folder every day for each backup (e.g., Backups/2025-09-04).  
--- Run quietly in the background using the schedule module.  
+- Automatically back up files from a source folder to a destination folder.<br>
+- Create a new dated folder every day for each backup (e.g., Backups/2025-09-04).<br> 
+- Run quietly in the background using the schedule module.<br>
 
 <h2><a class="anchor" id="problem"></a>Problem</h2>
-Manual file backups are:  
--- Easy to forget  
--- Time-consuming  
--- Prone to human error  
+Manual file backups are:<br>
+- Easy to forget<br>
+- Time-consuming<br>
+- Prone to human error<br>  
 
 There was a need for a simple, hands-off solution to automate the daily backup process — especially for users who want peace of mind when dealing with critical files.
 
 <h2><a class="anchor" id="tools"></a>Tools</h2>
--- Python:- Programming language  
--- shutil:- For copying files and directories  
--- datetime:- For managing and formatting dates  
--- schedule:- To automate backup tasks  
--- time:- For checking and sleeping the loop  
--- os:- To handle filesystem paths  
+- Python:- Programming language<br>
+- shutil:- For copying files and directories<br>
+- datetime:- For managing and formatting dates<br>
+- schedule:- To automate backup tasks<br>
+- time:- For checking and sleeping the loop<br>
+- os:- To handle filesystem paths<br>
 
 <h2><a class="anchor" id="projec-structure"></a>Project Structure</h2>
-Automatic_File_Backup/  
+<pre>Automatic_File_Backup/
 │
-├── backup.py               # Main Python script to run the program
-├── README.md               # Project documentation
-
+├── backup.py             # Main Python script to run the program
+├── README.md             # Project documentation
+</pre>
 
 <h2><a class="anchor" id="key-things"></a>Key Things</h2>
--- Daily Scheduling: Uses schedule.every().day.at("HH:MM") to run once daily.  
--- Date-based Folders: Each backup is stored in a folder named with the current date.  
--- rror Handling: If the folder for that day already exists, it skips the backup and notifies the user.  
--- odular Design: You can change the source/destination directories or backup time easily.  
+- Daily Scheduling: Uses schedule.every().day.at("HH:MM") to run once daily.<br>
+- Date-based Folders: Each backup is stored in a folder named with the current date.<br>
+- rror Handling: If the folder for that day already exists, it skips the backup and notifies the user.<br>
+- odular Design: You can change the source/destination directories or backup time easily.<br>
 
 <h2><a class="anchor" id="how-to-run-this-program"></a>How to run this program</h2>
-1. Install dependencies - using # pip install schedule  
-2. Edit script - change the time when you want to schedule the backup. The set sourceDirectory & destinationDirectory. Also set time.  
-3. Run the script  
+1. Install dependencies - using # pip install schedule<br>
+2. Edit script - change the time when you want to schedule the backup. The set sourceDirectory & destinationDirectory. Also set time.<br>
+3. Run the script.<br>
 
 
 <h2><a class="anchor" id="recommendations"></a>Recommendations</h2>
