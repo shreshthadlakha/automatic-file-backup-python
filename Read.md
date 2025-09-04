@@ -2,6 +2,7 @@
 _Daily file backup can be cumbersome. But this Python-based Automatic File Backup Program solves that by automating the entire process. Once set up, it silently runs in the background, copying the contents of a source folder into a backup directory at a specified time every day, at a schedule time._
 
 ## Table of Contents
+<pre>
 -<a href="#overview">Overview</a>
 -<a href="#problem">Problem</a>
 -<a href="#tools">Tools</a>
@@ -10,6 +11,7 @@ _Daily file backup can be cumbersome. But this Python-based Automatic File Backu
 -<a href="#how-to-run-this-program">How to run this program</a>
 -<a href="#recommendations">Recommendations</a>
 -<a href="#builder-contact">Builder Contact</a>
+</pre>
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 This program is designed to:  
