@@ -63,7 +63,7 @@ There was a need for a simple, hands-off solution to automate the daily backup p
 
 <h2><a class="anchor" id="builder-contact"></a>Builder Contact</h2>
 
-**Shreshth Adlakha**
-Python Developer
-[E-Mail]: shreshthaadlakha@gmail.com
+**Shreshth Adlakha**<br>
+Python Developer<br>
+shreshthaadlakha@gmail.com <br>
 [LinkedIn](https://www.linkedin.com/in/shreshthadlakha/)
