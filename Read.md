@@ -23,8 +23,8 @@ This program is designed to:
 Manual file backups are:<br>
 - Easy to forget<br>
 - Time-consuming<br>
-- Prone to human error<br>  
-
+- Prone to human error<br>
+<br>
 There was a need for a simple, hands-off solution to automate the daily backup process — especially for users who want peace of mind when dealing with critical files.
 
 <h2><a class="anchor" id="tools"></a>Tools</h2>
@@ -45,8 +45,8 @@ There was a need for a simple, hands-off solution to automate the daily backup p
 <h2><a class="anchor" id="key-things"></a>Key Things</h2>
 - Daily Scheduling: Uses schedule.every().day.at("HH:MM") to run once daily.<br>
 - Date-based Folders: Each backup is stored in a folder named with the current date.<br>
-- rror Handling: If the folder for that day already exists, it skips the backup and notifies the user.<br>
-- odular Design: You can change the source/destination directories or backup time easily.<br>
+- Error Handling: If the folder for that day already exists, it skips the backup and notifies the user.<br>
+- Modular Design: You can change the source/destination directories or backup time easily.<br>
 
 <h2><a class="anchor" id="how-to-run-this-program"></a>How to run this program</h2>
 1. Install dependencies - using # pip install schedule<br>
@@ -55,11 +55,11 @@ There was a need for a simple, hands-off solution to automate the daily backup p
 
 
 <h2><a class="anchor" id="recommendations"></a>Recommendations</h2>
--- Run this script as a startup task or create a Windows scheduled task to ensure it starts automatically.  
--- Make sure the source and destination directories exist and are accessible.  
--- Consider logging backup status to a .log file for better tracking.  
--- Don’t schedule multiple backups at the same exact time.  
--- Backup to external drives or cloud-synced folders for extra safety.  
+- Run this script as a startup task or create a Windows scheduled task to ensure it starts automatically.<br>
+- Make sure the source and destination directories exist and are accessible.<br>
+- Consider logging backup status to a .log file for better tracking.<br>
+- Don’t schedule multiple backups at the same exact time.<br>
+- Backup to external drives or cloud-synced folders for extra safety.<br>
 
 <h2><a class="anchor" id="builder-contact"></a>Builder Contact</h2>
 
